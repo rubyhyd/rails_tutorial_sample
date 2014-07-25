@@ -45,7 +45,11 @@ gem 'spring',        group: :development
 group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
+  gem 'database_cleaner', '~>1.0.1'
+  gem 'launchy', '~>2.3.0'
 end
+
+gem 'minitest'
 
 group :production do
   gem 'pg', '0.15.1'
