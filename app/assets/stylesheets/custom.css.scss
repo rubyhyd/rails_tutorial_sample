@@ -1,0 +1,41 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+   padding-top: 60px;
+}
+
+.center {
+  text-align: center;
+  
+  h1 {
+    font-weight:bold;
+  }
+
+}
+
+body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 { 
+  font-family: Microsoft YaHei,'宋体' , Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+}
+
+/* header */
+
+#logo {
+  folat: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 20px;
+  font-weight:bold;
+  line-height:1;
+}
+
+
+
