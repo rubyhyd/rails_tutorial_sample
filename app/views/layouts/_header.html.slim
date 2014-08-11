@@ -1,0 +1,36 @@
+<!-- Fixed navbar -->
+nav.navbar.navbar-fixed-top role='navigation'
+  div.container
+    div.navbar-header
+      /button.navbar-toggle.collapsed type="button" data-toggle="collapse" data-target=".navbar-collapse"
+      /  span.sr-only Togglenavigation
+      /  span.icon-bar 
+      /  span.icon-bar
+      /  span.icon-bar
+      = link_to "Sample App", root_path, class: "navbar-brand"
+    div
+      p.navbar-text This is a Sample App for rails
+    div.navbar-right
+      ul.nav.navbar-nav
+        li.active
+          = link_to "Home", root_path
+        li 
+          = link_to "Help", help_path
+        li.dropdown
+          a.dropdown-toggle href='#' data-toggle="dropdown"
+            Sign in
+            b.caret
+          ul.dropdown-menu role="menu"
+            li
+              a href='#' Action
+            li 
+              a href='#' Another action
+            li.divider 
+            li.dropdown-header Nav header
+            li
+              a href='#' Separated link
+            li
+              a href='#' One more separated link 
+
+
+
